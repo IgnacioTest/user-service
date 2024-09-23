@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  user:
+    image: user
+    restart: always
+    container_name: user-service
+    ports:
+      - '8081:8081'
